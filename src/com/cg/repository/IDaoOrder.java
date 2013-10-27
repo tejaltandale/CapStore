@@ -14,4 +14,7 @@ public interface IDaoOrder extends JpaRepository<Order,Long>{
 	@Transactional
 	@Query("select t from Transaction t where t.merchant.merchantId=?1")
 	public List<Transaction> getBymerchantId(String id);
+	@Transactional
+	@Query("select o from Order o")
+	List<Order> getAllOrders();
 }

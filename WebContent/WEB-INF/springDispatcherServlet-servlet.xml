@@ -66,6 +66,8 @@
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory" ref="entityManagerFactory"></property>
 	</bean>
+	<bean id="jacksonMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"/>
+
 	<tx:annotation-driven transaction-manager="transactionManager"/>
 <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -83,4 +85,6 @@
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
     <mvc:resources location="file:///d:/AllFiles/**" mapping="/AllFiles"/>
+    <util:properties id="albumResource" location="classpath:resources.properties"></util:properties>
+<util:properties id="img" location="classpath:resources.properties"></util:properties>
 </beans>

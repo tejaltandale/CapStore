@@ -27,4 +27,6 @@ public interface IDaoUser extends JpaRepository<User,String>{
 	@Transactional
 	@Query("select u.userFirstname from User u where u.userEmail=?1")
 	public String getUserName(String email);
+
+
 }

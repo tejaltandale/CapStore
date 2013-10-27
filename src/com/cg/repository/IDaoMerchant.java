@@ -1,5 +1,7 @@
 package com.cg.repository;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -23,4 +25,10 @@ public interface IDaoMerchant extends JpaRepository<Merchant,String>{
 	@Transactional
 	@Query("select m from Merchant m where m.merchantEmail=?1")
 	public Merchant findById(String email_id);
+	@Transactional
+	@Query("select m.merchantName from Merchant m where m.merchantEmail=?1")
+	public String getMerchantName(String email_id);
+	@Transactional
+	@Query("select m from Merchant m ")
+	List<Merchant> getAllMerchants();
 }

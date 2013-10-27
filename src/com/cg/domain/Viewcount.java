@@ -22,7 +22,6 @@ public class Viewcount implements Serializable {
 
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="product_id", unique=true, nullable=false, length=255)
 	public String getProductId() {
 		return this.productId;

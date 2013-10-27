@@ -4,7 +4,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Ask</title>
 <link type="text/css" href="resources/Css/style.css" rel="stylesheet"  />
 <link type="text/css" href="resources/Css/login.css" rel="stylesheet"  />
 

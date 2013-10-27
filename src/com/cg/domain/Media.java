@@ -22,8 +22,6 @@ public class Media implements Serializable {
 
 	public Media() {
 	}
-
-
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="media_id", unique=true, nullable=false)

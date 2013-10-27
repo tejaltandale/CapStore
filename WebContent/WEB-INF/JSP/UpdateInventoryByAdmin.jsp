@@ -80,7 +80,7 @@
 			<li><a href="getApprovedMerchants">Approved Merchants</a></li>
 			<li><a href="getRemovedOrRejectedMerchants">Denied Merchants</a></li>
 			<li><a href="inviteAMerchant">Invite Merchant</a></li>
-			<li><a href="createoffers">Create Offers</a></li>
+			<li><a href="createOfferAdmin">Create Offers</a></li>
 
 		</ul>
 	</div>
@@ -132,16 +132,6 @@
 		</form>
 	</div>
 	<!-- Middle container ends here -->
-	<!---Clock Starts Here-->
-	<div class="time">
-		<iframe class="gwt-Frame" id="remote_iframe_3" name="remote_iframe_3"
-			frameborder="0" scrolling="no"
-			src="http://www-ig-opensocial.googleusercontent.com/gadgets/ifr?exp_rpc_js=1&amp;exp_track_js=1&amp;url=http%3A%2F%2Fwww.gstatic.com%2Fig%2Fmodules%2Fdatetime_v3%2Fdatetime_v3.xml&amp;container=ig&amp;view=home&amp;lang=en&amp;country=US&amp;sanitize=0&amp;v=a436ac81fcfa0869&amp;parent=http://www.google.com&amp;libs=core:core.io:core.iglegacy:auth-refresh&amp;synd=ig&amp;mid=3#rpctoken=-874821815&amp;ifpctok=-874821815&amp;up_mainClock=&amp;up_mainClockDSTOffset=&amp;up_mainClockTimeZoneOffset=&amp;up_dateFormat=wmd&amp;up_useServerTime=false&amp;up_firstDay=0&amp;up_clocks=%5B%5D&amp;up_color=grey&amp;up_showWorldClocks=true&amp;up_24hourClock=true"
-			style="height: auto;"></iframe>
-	</div>
-	<!--Clock Ends Here--->
-
-
 	<!--Footer Section-->
 	<div class="right-border"></div>
 	<div class="footer">@Copyright Cap Store</div>

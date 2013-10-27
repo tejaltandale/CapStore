@@ -4,7 +4,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Merchant </title>
 <link type="text/css" href="resources/Css/style.css" rel="stylesheet"  />
 <link type="text/css" href="resources/Css/login.css" rel="stylesheet"  />
 
@@ -12,11 +12,8 @@
     <script src="resources/Script/login.js"></script>
     <script src="resources/Script/scripts.js"></script>
 </head>
-
-
 <body oncontextmenu="return false;">
 <!--Header Section-->
-
 <div class="header-tile"></div>
 <div class="header" >
 <div class="header-title">
@@ -39,12 +36,13 @@
 
 <input class="mainSubmit" value=" " type="submit" style="position:relative;margin-left:-76px;">
 </form>
-<!--Search Bar Ends Here-->      
-</div>
+<!--Search Bar Ends Here--> 
+<div></div>     
+
  <!-- Logout Starts Here -->
-	<a href="#" id="logout-button"><span>Logout</span><em></em></a>
+	<div class="user">Welcome ${merchantname }</div><a href="#" id="logout-button"><span>Logout</span><em></em></a>
 	<!-- Logout Ends Here -->
-	
+	</div>
 
 <div class="left-border"></div>
 
@@ -71,23 +69,15 @@
 <li><a href="deleteproductbymerchant">Reduce Stocks</a> </li>
 <li><a href="showproductsformerchant">Show Products</a></li>
 <li><a href="checkorders">Check Orders</a></li>
-<li><a href="">Discounts</a></li>
+<li><a href="discountsbyMerchant">Discounts</a></li>
 </ul>
 </div>
   <!--  navigation sidebar starts-->
     <!-- MIDDLE CONTAINER starts here  -->
       
       <div class="middle-container">
-      Welcome ${userid }</div>
-      <!-- MIDDLE CONTAINER ends here  -->
-      
-      <!---Clock Starts Here-->
-<div class="time">
-<iframe class="gwt-Frame" id="remote_iframe_3" name="remote_iframe_3" frameborder="0" scrolling="no" src="http://www-ig-opensocial.googleusercontent.com/gadgets/ifr?exp_rpc_js=1&amp;exp_track_js=1&amp;url=http%3A%2F%2Fwww.gstatic.com%2Fig%2Fmodules%2Fdatetime_v3%2Fdatetime_v3.xml&amp;container=ig&amp;view=home&amp;lang=en&amp;country=US&amp;sanitize=0&amp;v=a436ac81fcfa0869&amp;parent=http://www.google.com&amp;libs=core:core.io:core.iglegacy:auth-refresh&amp;synd=ig&amp;mid=3#rpctoken=-874821815&amp;ifpctok=-874821815&amp;up_mainClock=&amp;up_mainClockDSTOffset=&amp;up_mainClockTimeZoneOffset=&amp;up_dateFormat=wmd&amp;up_useServerTime=false&amp;up_firstDay=0&amp;up_clocks=%5B%5D&amp;up_color=grey&amp;up_showWorldClocks=true&amp;up_24hourClock=true" style="height: auto;"></iframe>
-</div>
- <!--Clock Ends Here--->
- 
- 
+      </div>
+      <!-- MIDDLE CONTAINER ends here  --> 
 <!--Footer Section-->
 <div class="right-border"></div>
 <div class="footer">@Copyright Cap Store</div>
@@ -95,22 +85,3 @@
 <!--Footer Section-->
 </body>
 </html>
-
-
-<!-- <form id="add" action="check" method="get">
-<div align="center">
-<h1>Check order </h1>
-<br> <input type="text" id="id" name="id">
-<input type="submit" name="submit" id="submit" value="Check order"></div>
-</form>
-
-<form id="find" action="merchantadd" method="get">
-<div align="center">
-<h1>Add Product</h1>
-<br>
-<input type="submit" name="submit" id="submit" value="add"></div></form>
-<form id="delete" action="delete1" method="get">
-<div align="center">
-<h1>Delete Product</h1>
-<br><br> <input type="text" id="id" name="id"><br>
-<input type="submit" name="submit" id="submit" value="delete"></div></form> -->

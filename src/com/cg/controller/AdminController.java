@@ -10,19 +10,32 @@ import java.util.List;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.cg.service.ServiceClass;
 import com.cg.domain.Category;
+import com.cg.domain.CategoryCount;
+import com.cg.domain.MarketShare;
+import com.cg.domain.MarketShareRevenue;
 import com.cg.domain.Merchant;
+import com.cg.domain.MerchantRatings;
+import com.cg.domain.MostBoughtProducts;
 import com.cg.domain.Product;
 import com.cg.domain.ProductDescription;
+import com.cg.domain.ProductRatings;
+import com.cg.domain.ProductShare;
+import com.cg.domain.ProductViews;
+import com.cg.domain.RevenueTable;
+import com.cg.domain.WishlistCount;
 @Controller
 @RequestMapping("/")
 public class AdminController {
@@ -127,7 +140,7 @@ public class AdminController {
 		map.put("list",userlist);
 		return "ShowInventoryForAdmin";
 	}
-/*Alok*/
+	/*Alok*/
 	@RequestMapping(value="fileinsert",method=RequestMethod.POST)
 	public String insert(@RequestParam("datasize")MultipartFile datasize) throws FileNotFoundException, NumberFormatException, ParseException{
 		List<Product> pojoList = new ArrayList<Product>();
@@ -135,14 +148,15 @@ public class AdminController {
 		String line = "";
 		SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
 		Date d=new Date();
-		Merchant m=new Merchant();
-		Category cat=new Category();
+		
 		try {
 			while((line = br.readLine()) != null) {  
+				Merchant m=new Merchant();
+				Category cat=new Category();
 				String[] fields = line.split(",");
 				cat.setCategoryId(fields[1]);
 				m.setMerchantId(fields[2]);
-				Product p = new Product(fields[0],cat,m,fields[3],Double.parseDouble(fields[4]),d,fields[6],d,fields[8],Long.parseLong(fields[9]));
+				Product p = new Product(fields[0],cat,m,fields[3],Double.parseDouble(fields[4]),d,fields[5],fields[6],Long.parseLong(fields[7]));
 				pojoList.add(p);
 				System.out.println(p);
 			}
@@ -182,14 +196,68 @@ public class AdminController {
 	public String navigate(@RequestParam("id")String ID,@RequestParam("amt")String quan,@RequestParam("update")String control){
 		if(control.equals("Reduce_stock")){
 			sc.deleteProduct(ID,Integer.parseInt(quan));
-			
+
 			return "UpdateSuccessByAdmin";
 		}
 		else{
 			sc.increaseProduct(ID,Integer.parseInt(quan));
-			
+
 			return "UpdateSuccessByAdmin";
 		}
 	}
-	
+	/*DineshReddy*/
+
+	@RequestMapping(value="createOfferAdmin",method=RequestMethod.POST)
+	public @ResponseBody boolean createOffer(@RequestParam(value="name") String name,@RequestParam(value="type") String type,@RequestParam(value="value") String value,@RequestParam(value="des") String des,HttpSession session){
+		String merchantId="Admin";
+		return sc.createOffer(name, type, value,des, merchantId);
+	}
+	@RequestMapping(value="createOfferAdmin")
+	public String createOffer(ModelMap model){
+		model.addAttribute("test", true);
+		return "CreateOfferByAdmin";
+	}
+
+	@RequestMapping(value="removeOfferByAdmin")
+	public String removeOfferByAdmin(ModelMap model) {
+		model.addAttribute("list", sc.getAllOfferByAdmin());
+		return "removeOfferByAdmin";
+	}
+	@RequestMapping(value="removeOfferByAdmin",method=RequestMethod.POST)
+	public String removeOfferByAdmin(ModelMap model,@RequestParam("selectedId")String[] values) {		
+		model.addAttribute("result", sc.deleteOfferByAdmin(values));
+		model.addAttribute("list", sc.getAllOfferByAdmin());
+		return "removeOfferByAdmin";
+	}
+	/*Shaswat*/
+	@RequestMapping(value="reports",method = RequestMethod.GET)
+	public String getAllWishlist(ModelMap m) {
+		List<WishlistCount> list = sc.researchWishlist();
+		m.put("list1", list);
+		List<ProductViews> list2 = sc.researchViewcount();
+		m.put("list2", list2);
+		List<MostBoughtProducts> list3 = sc.researchTransactions();
+		m.put("list3", list3);
+		List<MarketShare> list4 = sc.researchMarketShare();
+		m.put("list4", list4);
+		List<Integer> list5 = sc.researchOrderStatus();
+		m.put("list5", list5);
+		List<MerchantRatings> list6 = sc.researchMerchant();
+		m.put("list6", list6);
+		List<ProductRatings> list7 = sc.researchProduct();
+		m.put("list7", list7);
+		List<ProductShare> list8 = sc.researchProductShare();
+		m.put("list8", list8);
+		List<RevenueTable> list9 = sc.researchQuarterRevenue();
+		m.put("list9", list9);
+		List<CategoryCount> list10 = sc.researchCategorySales();
+		m.put("list10", list10);
+		List<MarketShareRevenue> list11 = sc.researchMarketShareRevenue();
+		m.put("list11", list11);
+
+		return "ReportForAdmin";
+	}
+
+
+
 }

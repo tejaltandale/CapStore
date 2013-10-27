@@ -25,7 +25,7 @@ $(function() {
 
 $(document).ready(function(){
     $("#pw").focus(function(){
-        this.type = "text";
+        this.type = "password";
     }).blur(function(){
         this.type = "password";
     })   

@@ -22,6 +22,11 @@ public class Product implements Serializable {
 	private Date productSolddate;
 	private long productStock;
 	private String productTag;
+	@Override
+	public String toString() {
+		return "Product [productId=" + productId + "]";
+	}
+
 	private Set<Media> medias;
 	private Category category;
 	private Merchant merchant;
@@ -287,14 +292,13 @@ public class Product implements Serializable {
 
 	public Product(String productId, Category category, 
 			Merchant merchant,String productBrand, double productCost,
-			Date productCreationdate, String productName, Date productSolddate,String productTag,long productStock) {
+			Date productCreationdate, String productName,String productTag,long productStock) {
 		super();
 		this.productId = productId;
 		this.productBrand = productBrand;
 		this.productCost = productCost;
 		this.productCreationdate = productCreationdate;
 		this.productName = productName;
-		this.productSolddate = productSolddate;
 		this.productStock = productStock;
 		this.productTag = productTag;
 		this.category = category;
