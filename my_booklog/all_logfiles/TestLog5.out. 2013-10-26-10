@@ -1,0 +1,1171 @@
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Sat Oct 26 10:33:11 IST 2013]; root of context hierarchy
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4a7140: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,merchantController,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoWishlist,iDaoViewcount,iDaoOffer,iDaoReward,iDaoShipping,iDaoMedia,iDaoAdvertisement,iDaoTransaction,iDaoReturnstatus,iDaoMerchant,iDaoScheme,iDaoOrder,iDaoReturneditem,iDaoUser,iDaoProduct,iDaoFeedback,iDaoCategory,iDaoProductDescription,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,jacksonMessageConverter,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,multipartResolver,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#1,org.springframework.format.support.FormattingConversionServiceFactoryBean#1,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#1,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,albumResource]; root of factory hierarchy
+Loading properties file from class path resource [resources.properties]
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Mapped URL path [/findproducts] onto handler 'adminController'
+Mapped URL path [/findproducts.*] onto handler 'adminController'
+Mapped URL path [/findproducts/] onto handler 'adminController'
+Mapped URL path [/getAllMerchants] onto handler 'adminController'
+Mapped URL path [/getAllMerchants.*] onto handler 'adminController'
+Mapped URL path [/getAllMerchants/] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants.*] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants/] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants/] onto handler 'adminController'
+Mapped URL path [/approveAMerchant] onto handler 'adminController'
+Mapped URL path [/approveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/approveAMerchant/] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant.*] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant/] onto handler 'adminController'
+Mapped URL path [/removeAMerchant] onto handler 'adminController'
+Mapped URL path [/removeAMerchant.*] onto handler 'adminController'
+Mapped URL path [/removeAMerchant/] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants/] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant/] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant.*] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant/] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant.*] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant/] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription.*] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription/] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin.*] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin/] onto handler 'adminController'
+Mapped URL path [/admin_home] onto handler 'adminController'
+Mapped URL path [/admin_home.*] onto handler 'adminController'
+Mapped URL path [/admin_home/] onto handler 'adminController'
+Mapped URL path [/updateinventory] onto handler 'adminController'
+Mapped URL path [/updateinventory.*] onto handler 'adminController'
+Mapped URL path [/updateinventory/] onto handler 'adminController'
+Mapped URL path [/updateproducts] onto handler 'adminController'
+Mapped URL path [/updateproducts.*] onto handler 'adminController'
+Mapped URL path [/updateproducts/] onto handler 'adminController'
+Mapped URL path [/addproducts] onto handler 'adminController'
+Mapped URL path [/addproducts.*] onto handler 'adminController'
+Mapped URL path [/addproducts/] onto handler 'adminController'
+Mapped URL path [/fileinsert] onto handler 'adminController'
+Mapped URL path [/fileinsert.*] onto handler 'adminController'
+Mapped URL path [/fileinsert/] onto handler 'adminController'
+Mapped URL path [/admin] onto handler 'controller'
+Mapped URL path [/admin.*] onto handler 'controller'
+Mapped URL path [/admin/] onto handler 'controller'
+Root mapping to handler 'controller'
+Mapped URL path [/fileinsertdescriptionformerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID/] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant.*] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID.*] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID/] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant.*] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant/] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant.*] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant/] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant/] onto handler 'merchantController'
+Mapped URL path [/AddMerchant] onto handler 'merchantController'
+Mapped URL path [/AddMerchant.*] onto handler 'merchantController'
+Mapped URL path [/AddMerchant/] onto handler 'merchantController'
+Mapped URL path [/createOffer] onto handler 'merchantController'
+Mapped URL path [/createOffer.*] onto handler 'merchantController'
+Mapped URL path [/createOffer/] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant/] onto handler 'merchantController'
+Mapped URL path [/checkorders] onto handler 'merchantController'
+Mapped URL path [/checkorders.*] onto handler 'merchantController'
+Mapped URL path [/checkorders/] onto handler 'merchantController'
+Mapped URL path [/addScheme] onto handler 'merchantController'
+Mapped URL path [/addScheme.*] onto handler 'merchantController'
+Mapped URL path [/addScheme/] onto handler 'merchantController'
+Mapped URL path [/removeScheme] onto handler 'merchantController'
+Mapped URL path [/removeScheme.*] onto handler 'merchantController'
+Mapped URL path [/removeScheme/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId/] onto handler 'merchantController'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/findproducts] onto handler 'adminController'
+Mapped URL path [/findproducts.*] onto handler 'adminController'
+Mapped URL path [/findproducts/] onto handler 'adminController'
+Mapped URL path [/getAllMerchants] onto handler 'adminController'
+Mapped URL path [/getAllMerchants.*] onto handler 'adminController'
+Mapped URL path [/getAllMerchants/] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants.*] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants/] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants/] onto handler 'adminController'
+Mapped URL path [/approveAMerchant] onto handler 'adminController'
+Mapped URL path [/approveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/approveAMerchant/] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant.*] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant/] onto handler 'adminController'
+Mapped URL path [/removeAMerchant] onto handler 'adminController'
+Mapped URL path [/removeAMerchant.*] onto handler 'adminController'
+Mapped URL path [/removeAMerchant/] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants/] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant/] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant.*] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant/] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant.*] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant/] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription.*] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription/] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin.*] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin/] onto handler 'adminController'
+Mapped URL path [/admin_home] onto handler 'adminController'
+Mapped URL path [/admin_home.*] onto handler 'adminController'
+Mapped URL path [/admin_home/] onto handler 'adminController'
+Mapped URL path [/updateinventory] onto handler 'adminController'
+Mapped URL path [/updateinventory.*] onto handler 'adminController'
+Mapped URL path [/updateinventory/] onto handler 'adminController'
+Mapped URL path [/updateproducts] onto handler 'adminController'
+Mapped URL path [/updateproducts.*] onto handler 'adminController'
+Mapped URL path [/updateproducts/] onto handler 'adminController'
+Mapped URL path [/addproducts] onto handler 'adminController'
+Mapped URL path [/addproducts.*] onto handler 'adminController'
+Mapped URL path [/addproducts/] onto handler 'adminController'
+Mapped URL path [/fileinsert] onto handler 'adminController'
+Mapped URL path [/fileinsert.*] onto handler 'adminController'
+Mapped URL path [/fileinsert/] onto handler 'adminController'
+Mapped URL path [/admin] onto handler 'controller'
+Mapped URL path [/admin.*] onto handler 'controller'
+Mapped URL path [/admin/] onto handler 'controller'
+Root mapping to handler 'controller'
+Mapped URL path [/fileinsertdescriptionformerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID/] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant.*] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID.*] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID/] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant.*] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant/] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant.*] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant/] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant/] onto handler 'merchantController'
+Mapped URL path [/AddMerchant] onto handler 'merchantController'
+Mapped URL path [/AddMerchant.*] onto handler 'merchantController'
+Mapped URL path [/AddMerchant/] onto handler 'merchantController'
+Mapped URL path [/createOffer] onto handler 'merchantController'
+Mapped URL path [/createOffer.*] onto handler 'merchantController'
+Mapped URL path [/createOffer/] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant/] onto handler 'merchantController'
+Mapped URL path [/checkorders] onto handler 'merchantController'
+Mapped URL path [/checkorders.*] onto handler 'merchantController'
+Mapped URL path [/checkorders/] onto handler 'merchantController'
+Mapped URL path [/addScheme] onto handler 'merchantController'
+Mapped URL path [/addScheme.*] onto handler 'merchantController'
+Mapped URL path [/addScheme/] onto handler 'merchantController'
+Mapped URL path [/removeScheme] onto handler 'merchantController'
+Mapped URL path [/removeScheme.*] onto handler 'merchantController'
+Mapped URL path [/removeScheme/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId/] onto handler 'merchantController'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+Mapped URL path [/AllFiles] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+Root WebApplicationContext: initialization completed in 9039 ms
+FrameworkServlet 'springDispatcherServlet': initialization started
+Refreshing WebApplicationContext for namespace 'springDispatcherServlet-servlet': startup date [Sat Oct 26 10:33:20 IST 2013]; parent: Root WebApplicationContext
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10ce7ac: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,merchantController,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoWishlist,iDaoViewcount,iDaoOffer,iDaoReward,iDaoShipping,iDaoMedia,iDaoAdvertisement,iDaoTransaction,iDaoReturnstatus,iDaoMerchant,iDaoScheme,iDaoOrder,iDaoReturneditem,iDaoUser,iDaoProduct,iDaoFeedback,iDaoCategory,iDaoProductDescription,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,jacksonMessageConverter,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,multipartResolver,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#1,org.springframework.format.support.FormattingConversionServiceFactoryBean#1,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#1,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,albumResource]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4a7140
+Loading properties file from class path resource [resources.properties]
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Mapped URL path [/findproducts] onto handler 'adminController'
+Mapped URL path [/findproducts.*] onto handler 'adminController'
+Mapped URL path [/findproducts/] onto handler 'adminController'
+Mapped URL path [/getAllMerchants] onto handler 'adminController'
+Mapped URL path [/getAllMerchants.*] onto handler 'adminController'
+Mapped URL path [/getAllMerchants/] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants.*] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants/] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants/] onto handler 'adminController'
+Mapped URL path [/approveAMerchant] onto handler 'adminController'
+Mapped URL path [/approveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/approveAMerchant/] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant.*] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant/] onto handler 'adminController'
+Mapped URL path [/removeAMerchant] onto handler 'adminController'
+Mapped URL path [/removeAMerchant.*] onto handler 'adminController'
+Mapped URL path [/removeAMerchant/] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants/] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant/] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant.*] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant/] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant.*] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant/] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription.*] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription/] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin.*] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin/] onto handler 'adminController'
+Mapped URL path [/admin_home] onto handler 'adminController'
+Mapped URL path [/admin_home.*] onto handler 'adminController'
+Mapped URL path [/admin_home/] onto handler 'adminController'
+Mapped URL path [/updateinventory] onto handler 'adminController'
+Mapped URL path [/updateinventory.*] onto handler 'adminController'
+Mapped URL path [/updateinventory/] onto handler 'adminController'
+Mapped URL path [/updateproducts] onto handler 'adminController'
+Mapped URL path [/updateproducts.*] onto handler 'adminController'
+Mapped URL path [/updateproducts/] onto handler 'adminController'
+Mapped URL path [/addproducts] onto handler 'adminController'
+Mapped URL path [/addproducts.*] onto handler 'adminController'
+Mapped URL path [/addproducts/] onto handler 'adminController'
+Mapped URL path [/fileinsert] onto handler 'adminController'
+Mapped URL path [/fileinsert.*] onto handler 'adminController'
+Mapped URL path [/fileinsert/] onto handler 'adminController'
+Mapped URL path [/admin] onto handler 'controller'
+Mapped URL path [/admin.*] onto handler 'controller'
+Mapped URL path [/admin/] onto handler 'controller'
+Root mapping to handler 'controller'
+Mapped URL path [/fileinsertdescriptionformerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID/] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant.*] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID.*] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID/] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant.*] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant/] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant.*] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant/] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant/] onto handler 'merchantController'
+Mapped URL path [/AddMerchant] onto handler 'merchantController'
+Mapped URL path [/AddMerchant.*] onto handler 'merchantController'
+Mapped URL path [/AddMerchant/] onto handler 'merchantController'
+Mapped URL path [/createOffer] onto handler 'merchantController'
+Mapped URL path [/createOffer.*] onto handler 'merchantController'
+Mapped URL path [/createOffer/] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant/] onto handler 'merchantController'
+Mapped URL path [/checkorders] onto handler 'merchantController'
+Mapped URL path [/checkorders.*] onto handler 'merchantController'
+Mapped URL path [/checkorders/] onto handler 'merchantController'
+Mapped URL path [/addScheme] onto handler 'merchantController'
+Mapped URL path [/addScheme.*] onto handler 'merchantController'
+Mapped URL path [/addScheme/] onto handler 'merchantController'
+Mapped URL path [/removeScheme] onto handler 'merchantController'
+Mapped URL path [/removeScheme.*] onto handler 'merchantController'
+Mapped URL path [/removeScheme/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId/] onto handler 'merchantController'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/findproducts] onto handler 'adminController'
+Mapped URL path [/findproducts.*] onto handler 'adminController'
+Mapped URL path [/findproducts/] onto handler 'adminController'
+Mapped URL path [/getAllMerchants] onto handler 'adminController'
+Mapped URL path [/getAllMerchants.*] onto handler 'adminController'
+Mapped URL path [/getAllMerchants/] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants.*] onto handler 'adminController'
+Mapped URL path [/getPendingMerchants/] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getApprovedMerchants/] onto handler 'adminController'
+Mapped URL path [/approveAMerchant] onto handler 'adminController'
+Mapped URL path [/approveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/approveAMerchant/] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant.*] onto handler 'adminController'
+Mapped URL path [/rejectAMerchant/] onto handler 'adminController'
+Mapped URL path [/removeAMerchant] onto handler 'adminController'
+Mapped URL path [/removeAMerchant.*] onto handler 'adminController'
+Mapped URL path [/removeAMerchant/] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants.*] onto handler 'adminController'
+Mapped URL path [/getRemovedOrRejectedMerchants/] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant.*] onto handler 'adminController'
+Mapped URL path [/reapproveAMerchant/] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant.*] onto handler 'adminController'
+Mapped URL path [/inviteAMerchant/] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant.*] onto handler 'adminController'
+Mapped URL path [/sendInvitationToNewMerchant/] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription.*] onto handler 'adminController'
+Mapped URL path [/fileinsertdescription/] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin.*] onto handler 'adminController'
+Mapped URL path [/createOfferAdmin/] onto handler 'adminController'
+Mapped URL path [/admin_home] onto handler 'adminController'
+Mapped URL path [/admin_home.*] onto handler 'adminController'
+Mapped URL path [/admin_home/] onto handler 'adminController'
+Mapped URL path [/updateinventory] onto handler 'adminController'
+Mapped URL path [/updateinventory.*] onto handler 'adminController'
+Mapped URL path [/updateinventory/] onto handler 'adminController'
+Mapped URL path [/updateproducts] onto handler 'adminController'
+Mapped URL path [/updateproducts.*] onto handler 'adminController'
+Mapped URL path [/updateproducts/] onto handler 'adminController'
+Mapped URL path [/addproducts] onto handler 'adminController'
+Mapped URL path [/addproducts.*] onto handler 'adminController'
+Mapped URL path [/addproducts/] onto handler 'adminController'
+Mapped URL path [/fileinsert] onto handler 'adminController'
+Mapped URL path [/fileinsert.*] onto handler 'adminController'
+Mapped URL path [/fileinsert/] onto handler 'adminController'
+Mapped URL path [/admin] onto handler 'controller'
+Mapped URL path [/admin.*] onto handler 'controller'
+Mapped URL path [/admin/] onto handler 'controller'
+Root mapping to handler 'controller'
+Mapped URL path [/fileinsertdescriptionformerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertdescriptionformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByProductID/] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant.*] onto handler 'merchantController'
+Mapped URL path [/showproductsformerchant/] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID.*] onto handler 'merchantController'
+Mapped URL path [/getAllProductIdForMerchantID/] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant.*] onto handler 'merchantController'
+Mapped URL path [/discountsbyMerchant/] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant.*] onto handler 'merchantController'
+Mapped URL path [/SignUpMerchant/] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/reduceproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant.*] onto handler 'merchantController'
+Mapped URL path [/fileinsertmerchant/] onto handler 'merchantController'
+Mapped URL path [/AddMerchant] onto handler 'merchantController'
+Mapped URL path [/AddMerchant.*] onto handler 'merchantController'
+Mapped URL path [/AddMerchant/] onto handler 'merchantController'
+Mapped URL path [/createOffer] onto handler 'merchantController'
+Mapped URL path [/createOffer.*] onto handler 'merchantController'
+Mapped URL path [/createOffer/] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/deleteproductbymerchant/] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant.*] onto handler 'merchantController'
+Mapped URL path [/addproductsbymerchant/] onto handler 'merchantController'
+Mapped URL path [/checkorders] onto handler 'merchantController'
+Mapped URL path [/checkorders.*] onto handler 'merchantController'
+Mapped URL path [/checkorders/] onto handler 'merchantController'
+Mapped URL path [/addScheme] onto handler 'merchantController'
+Mapped URL path [/addScheme.*] onto handler 'merchantController'
+Mapped URL path [/addScheme/] onto handler 'merchantController'
+Mapped URL path [/removeScheme] onto handler 'merchantController'
+Mapped URL path [/removeScheme.*] onto handler 'merchantController'
+Mapped URL path [/removeScheme/] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId.*] onto handler 'merchantController'
+Mapped URL path [/getAllSchemeByMerchantIdAndProductId/] onto handler 'merchantController'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+Mapped URL path [/AllFiles] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+FrameworkServlet 'springDispatcherServlet': initialization completed in 2038 ms
+Before setting The Method    showHome
+Sat Oct 26 10:34:21 IST 2013:       To be executing:     showHome
+After setting The Method Sat Oct 26 10:34:21 IST 2013:       Excecuted:           showHome
+After Returning from the method  Sat Oct 26 10:34:21 IST 2013:       Returning:           Home
+Before setting The Method    validateLogin
+Sat Oct 26 10:34:37 IST 2013:       To be executing:     validateLogin
+Before setting The Method    validateLogin
+Sat Oct 26 10:34:37 IST 2013:       To be executing:     validateLogin
+Before setting The Method    findById
+Sat Oct 26 10:34:37 IST 2013:       To be executing:     findById
+After setting The Method Sat Oct 26 10:34:37 IST 2013:       Excecuted:           findById
+Before setting The Method    findById
+Sat Oct 26 10:34:37 IST 2013:       To be executing:     findById
+After setting The Method Sat Oct 26 10:34:37 IST 2013:       Excecuted:           findById
+After Returning from the method  Sat Oct 26 10:34:37 IST 2013:       Returning:           com.cg.domain.Merchant@c43b
+Before setting The Method    getMerchantPassword
+Sat Oct 26 10:34:37 IST 2013:       To be executing:     getMerchantPassword
+After setting The Method Sat Oct 26 10:34:37 IST 2013:       Excecuted:           getMerchantPassword
+After Returning from the method  Sat Oct 26 10:34:37 IST 2013:       Returning:           Baoau0Wqcg8X2SwZjrp7Cg==
+Before setting The Method    getMerchantStatus
+Sat Oct 26 10:34:37 IST 2013:       To be executing:     getMerchantStatus
+After setting The Method Sat Oct 26 10:34:37 IST 2013:       Excecuted:           getMerchantStatus
+After Returning from the method  Sat Oct 26 10:34:37 IST 2013:       Returning:           ACTIVE
+Before setting The Method    getMerchantId
+Sat Oct 26 10:34:37 IST 2013:       To be executing:     getMerchantId
+After setting The Method Sat Oct 26 10:34:37 IST 2013:       Excecuted:           getMerchantId
+After Returning from the method  Sat Oct 26 10:34:37 IST 2013:       Returning:           M_1111
+After setting The Method Sat Oct 26 10:34:37 IST 2013:       Excecuted:           validateLogin
+After Returning from the method  Sat Oct 26 10:34:37 IST 2013:       Returning:           true
+After setting The Method Sat Oct 26 10:34:37 IST 2013:       Excecuted:           validateLogin
+After Returning from the method  Sat Oct 26 10:34:37 IST 2013:       Returning:           MerchantHome
+Before setting The Method    meradd
+Sat Oct 26 10:34:39 IST 2013:       To be executing:     meradd
+After setting The Method Sat Oct 26 10:34:39 IST 2013:       Excecuted:           meradd
+After Returning from the method  Sat Oct 26 10:34:39 IST 2013:       Returning:           AddProductsByMerchant
+Before setting The Method    insertproduct
+Sat Oct 26 10:34:44 IST 2013:       To be executing:     insertproduct
+Before setting The Method    insertProduct
+Sat Oct 26 10:34:44 IST 2013:       To be executing:     insertProduct
+After setting The Method Sat Oct 26 10:34:44 IST 2013:       Excecuted:           insertProduct
+After Returning from the method  Sat Oct 26 10:34:44 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+Before setting The Method    unzip
+Sat Oct 26 10:34:44 IST 2013:       To be executing:     unzip
+After setting The Method Sat Oct 26 10:34:44 IST 2013:       Excecuted:           unzip
+Before setting The Method    extracteFiles
+Sat Oct 26 10:34:44 IST 2013:       To be executing:     extracteFiles
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:44 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1a5c619
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1dfbc19
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@11381e5
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1cdf069
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@813211
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@4c6b6c
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1909fe7
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@b33ec6
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@16a9570
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           extracteFiles
+Before setting The Method    getImages
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     getImages
+Before setting The Method    findAll
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           [com.cg.domain.Media@8b56a6, com.cg.domain.Media@1e5cf72, com.cg.domain.Media@96519f, com.cg.domain.Media@c8d778, com.cg.domain.Media@18b3454, com.cg.domain.Media@18b20f, com.cg.domain.Media@152138e, com.cg.domain.Media@181ff7f, com.cg.domain.Media@1ad0751, com.cg.domain.Media@bb7365, com.cg.domain.Media@950d16, com.cg.domain.Media@18e49b5, com.cg.domain.Media@892691, com.cg.domain.Media@432a13, com.cg.domain.Media@17f8627, com.cg.domain.Media@140a194, com.cg.domain.Media@2ffc30, com.cg.domain.Media@55d128, com.cg.domain.Media@16abba, com.cg.domain.Media@648102, com.cg.domain.Media@51ab88, com.cg.domain.Media@1d47823, com.cg.domain.Media@1b825f, com.cg.domain.Media@c2f21, com.cg.domain.Media@1ea4374, com.cg.domain.Media@f29a95, com.cg.domain.Media@182c654, com.cg.domain.Media@aae0a7, com.cg.domain.Media@8333e2, com.cg.domain.Media@1c35663, com.cg.domain.Media@15caeb3, com.cg.domain.Media@1d172ac, com.cg.domain.Media@1bfa94c, com.cg.domain.Media@3c6b5, com.cg.domain.Media@1ea9b3c]
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           getImages
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           /Integration/shirtpics/o11382715246596.jpg
+Before setting The Method    unzip
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     unzip
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           unzip
+Before setting The Method    extracteFiles
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     extracteFiles
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1a8245a
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1462876
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1cd2b99
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@971859
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@45c9cf
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@e07c4f
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@15301c4
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@bdb84a
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1c0d900
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@1bd8663
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:45 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:45 IST 2013:       Returning:           com.cg.domain.Media@140f075
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:45 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@24132d
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           extracteFiles
+Before setting The Method    getImages
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     getImages
+Before setting The Method    findAll
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           [com.cg.domain.Media@64d61f, com.cg.domain.Media@25c0b7, com.cg.domain.Media@8f3ac3, com.cg.domain.Media@15b049a, com.cg.domain.Media@8b463d, com.cg.domain.Media@1b07506, com.cg.domain.Media@1d31d61, com.cg.domain.Media@12df22b, com.cg.domain.Media@175eddc, com.cg.domain.Media@153377a, com.cg.domain.Media@5f46f6, com.cg.domain.Media@12bdd63, com.cg.domain.Media@d3cbb4, com.cg.domain.Media@e2c815, com.cg.domain.Media@be1499, com.cg.domain.Media@13a65e9, com.cg.domain.Media@f8c887, com.cg.domain.Media@1353d85, com.cg.domain.Media@59f09d, com.cg.domain.Media@c3d9c0, com.cg.domain.Media@cffee, com.cg.domain.Media@1769ece, com.cg.domain.Media@b40f23, com.cg.domain.Media@14dfeb0, com.cg.domain.Media@18c029e, com.cg.domain.Media@ffdb0b, com.cg.domain.Media@185c84e, com.cg.domain.Media@21b10e, com.cg.domain.Media@1ef4491, com.cg.domain.Media@17eb182, com.cg.domain.Media@b80d25, com.cg.domain.Media@1671641, com.cg.domain.Media@e60a39, com.cg.domain.Media@a94ca6, com.cg.domain.Media@e757de, com.cg.domain.Media@39b569, com.cg.domain.Media@b52ec6, com.cg.domain.Media@111ca8d, com.cg.domain.Media@1091268, com.cg.domain.Media@97739b, com.cg.domain.Media@126e223, com.cg.domain.Media@1c898a2, com.cg.domain.Media@9cee0a, com.cg.domain.Media@cfe75a, com.cg.domain.Media@15df23c, com.cg.domain.Media@ca7835, com.cg.domain.Media@9a1345]
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           getImages
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           /Integration/shirtpics/o11382715246596.jpg
+Before setting The Method    unzip
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     unzip
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           unzip
+Before setting The Method    extracteFiles
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     extracteFiles
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@596302
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@1ed1f23
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@4236fb
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@19b31a4
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           extracteFiles
+Before setting The Method    getImages
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     getImages
+Before setting The Method    findAll
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           [com.cg.domain.Media@18b848b, com.cg.domain.Media@aaee94, com.cg.domain.Media@153afe, com.cg.domain.Media@1d400eb, com.cg.domain.Media@1884e78, com.cg.domain.Media@1d7caeb, com.cg.domain.Media@4b1fc3, com.cg.domain.Media@1246a4, com.cg.domain.Media@1dbc868, com.cg.domain.Media@42459f, com.cg.domain.Media@e8ecbb, com.cg.domain.Media@e179d, com.cg.domain.Media@1307eea, com.cg.domain.Media@dc73d5, com.cg.domain.Media@138bbf5, com.cg.domain.Media@1bbf139, com.cg.domain.Media@1da022e, com.cg.domain.Media@1c5556d, com.cg.domain.Media@6b9f68, com.cg.domain.Media@1ae80c1, com.cg.domain.Media@18729d2, com.cg.domain.Media@cace11, com.cg.domain.Media@9ec4a6, com.cg.domain.Media@1809ab7, com.cg.domain.Media@2d8e2e, com.cg.domain.Media@d19828, com.cg.domain.Media@5c8114, com.cg.domain.Media@11e83ba, com.cg.domain.Media@5a5c33, com.cg.domain.Media@5b3425, com.cg.domain.Media@1bc9da2, com.cg.domain.Media@112ef6, com.cg.domain.Media@225715, com.cg.domain.Media@836465, com.cg.domain.Media@342326, com.cg.domain.Media@efad89, com.cg.domain.Media@16a3d73, com.cg.domain.Media@1e877e8, com.cg.domain.Media@1182ea8, com.cg.domain.Media@9f35e7, com.cg.domain.Media@8be9a1, com.cg.domain.Media@1975bc5, com.cg.domain.Media@a1283, com.cg.domain.Media@1459613, com.cg.domain.Media@17ff798, com.cg.domain.Media@5840d4, com.cg.domain.Media@82fe9, com.cg.domain.Media@181930b, com.cg.domain.Media@1dcdce0, com.cg.domain.Media@1292437, com.cg.domain.Media@8b11e]
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           getImages
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           /Integration/shirtpics/o11382715246596.jpg
+Before setting The Method    unzip
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     unzip
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           unzip
+Before setting The Method    extracteFiles
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     extracteFiles
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@16d8e2d
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@15197d8
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@157d1a0
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@4d6f07
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@11f0422
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@1b7d0fb
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@d06330
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@14f9de9
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@80474f
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@6e1bf6
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@94e989
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@114545
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@1b50aa4
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@399e19
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@1ac518a
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           extracteFiles
+Before setting The Method    getImages
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     getImages
+Before setting The Method    findAll
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           [com.cg.domain.Media@e72ca5, com.cg.domain.Media@124396a, com.cg.domain.Media@13588ca, com.cg.domain.Media@1a7bed0, com.cg.domain.Media@1e05bf9, com.cg.domain.Media@b66688, com.cg.domain.Media@1057764, com.cg.domain.Media@1e17f2d, com.cg.domain.Media@1648c53, com.cg.domain.Media@38cd0b, com.cg.domain.Media@11dc8c9, com.cg.domain.Media@692377, com.cg.domain.Media@979242, com.cg.domain.Media@1034814, com.cg.domain.Media@714de2, com.cg.domain.Media@b034c2, com.cg.domain.Media@57d0cf, com.cg.domain.Media@14df45f, com.cg.domain.Media@e6a763, com.cg.domain.Media@f7939e, com.cg.domain.Media@1fc8957, com.cg.domain.Media@9cc02f, com.cg.domain.Media@10d73ed, com.cg.domain.Media@360ab1, com.cg.domain.Media@1f81cd6, com.cg.domain.Media@2d4b8a, com.cg.domain.Media@1ba71f0, com.cg.domain.Media@18e73a2, com.cg.domain.Media@149d00d, com.cg.domain.Media@fa2904, com.cg.domain.Media@19aff8e, com.cg.domain.Media@ffe027, com.cg.domain.Media@d5315d, com.cg.domain.Media@9c11b8, com.cg.domain.Media@4f778e, com.cg.domain.Media@13238ed, com.cg.domain.Media@377526, com.cg.domain.Media@ec11e6, com.cg.domain.Media@8b303c, com.cg.domain.Media@bbca6, com.cg.domain.Media@8e6fc2, com.cg.domain.Media@14b3312, com.cg.domain.Media@60648, com.cg.domain.Media@18687f6, com.cg.domain.Media@14837a5, com.cg.domain.Media@3d4f04, com.cg.domain.Media@10eaa67, com.cg.domain.Media@1d56332, com.cg.domain.Media@639bd9, com.cg.domain.Media@18cd21e, com.cg.domain.Media@36d85f, com.cg.domain.Media@b75892, com.cg.domain.Media@11807c5, com.cg.domain.Media@a634d2, com.cg.domain.Media@1d5dad0, com.cg.domain.Media@110c3f8, com.cg.domain.Media@1b1fb70, com.cg.domain.Media@1f27d16, com.cg.domain.Media@f23fbc, com.cg.domain.Media@368577, com.cg.domain.Media@1748549, com.cg.domain.Media@da9e38, com.cg.domain.Media@c97a40, com.cg.domain.Media@1793685, com.cg.domain.Media@ea7f8c, com.cg.domain.Media@15bf831]
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           getImages
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           /Integration/shirtpics/o11382715246596.jpg
+Before setting The Method    unzip
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     unzip
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           unzip
+Before setting The Method    extracteFiles
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     extracteFiles
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@174b295
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@155d7fc
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@129eb7f
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:46 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:46 IST 2013:       Returning:           com.cg.domain.Media@66615b
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:46 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@c1b434
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@b48965
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@8cab90
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@180874d
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@1deb0f
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@d109f3
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@1fcee4a
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@e5188e
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@783ead
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@1dd746b
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@765b23
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@175cade
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@1cf60d6
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@66f7c5
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@533311
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           com.cg.domain.Media@dc07f2
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           extracteFiles
+Before setting The Method    getImages
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     getImages
+Before setting The Method    findAll
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           [com.cg.domain.Media@14e9b9f, com.cg.domain.Media@1cb18b5, com.cg.domain.Media@c34121, com.cg.domain.Media@e8f062, com.cg.domain.Media@fdb993, com.cg.domain.Media@1a2929d, com.cg.domain.Media@47b485, com.cg.domain.Media@19cabcf, com.cg.domain.Media@d3aa04, com.cg.domain.Media@3f018c, com.cg.domain.Media@7ebfb1, com.cg.domain.Media@15b22a5, com.cg.domain.Media@3fbce1, com.cg.domain.Media@897fe9, com.cg.domain.Media@12cb805, com.cg.domain.Media@e55d2c, com.cg.domain.Media@481810, com.cg.domain.Media@124022e, com.cg.domain.Media@10b4bd5, com.cg.domain.Media@9f8e82, com.cg.domain.Media@1452749, com.cg.domain.Media@1163aaf, com.cg.domain.Media@66d991, com.cg.domain.Media@55f423, com.cg.domain.Media@10f42ba, com.cg.domain.Media@e5cb1c, com.cg.domain.Media@79c3bb, com.cg.domain.Media@215343, com.cg.domain.Media@1e18a24, com.cg.domain.Media@345b11, com.cg.domain.Media@146e133, com.cg.domain.Media@6b03ee, com.cg.domain.Media@1cf1a2b, com.cg.domain.Media@1bf1385, com.cg.domain.Media@19a962c, com.cg.domain.Media@1f94353, com.cg.domain.Media@1b31dee, com.cg.domain.Media@7210d3, com.cg.domain.Media@aeb5e7, com.cg.domain.Media@288a7c, com.cg.domain.Media@19c032f, com.cg.domain.Media@1951f2e, com.cg.domain.Media@1323815, com.cg.domain.Media@155f, com.cg.domain.Media@17b130c, com.cg.domain.Media@11fb201, com.cg.domain.Media@1df9dc7, com.cg.domain.Media@1ef7bf5, com.cg.domain.Media@1b3233a, com.cg.domain.Media@1cdef27, com.cg.domain.Media@10ffddb, com.cg.domain.Media@e3563c, com.cg.domain.Media@1327d98, com.cg.domain.Media@1d3adc0, com.cg.domain.Media@342fc1, com.cg.domain.Media@2b3a78, com.cg.domain.Media@bcc94, com.cg.domain.Media@a43de9, com.cg.domain.Media@dcbc89, com.cg.domain.Media@1de0042, com.cg.domain.Media@1e3038d, com.cg.domain.Media@fe5d85, com.cg.domain.Media@1ae02c4, com.cg.domain.Media@137c709, com.cg.domain.Media@ec4987, com.cg.domain.Media@cf5101, com.cg.domain.Media@cf2353, com.cg.domain.Media@1183a41, com.cg.domain.Media@198af19, com.cg.domain.Media@10fb601, com.cg.domain.Media@7611bd, com.cg.domain.Media@18699c9, com.cg.domain.Media@1da85f6, com.cg.domain.Media@190eef1, com.cg.domain.Media@3735f2, com.cg.domain.Media@b6c8ee, com.cg.domain.Media@41ba0b, com.cg.domain.Media@11d39bf, com.cg.domain.Media@1ba2f45, com.cg.domain.Media@758b15, com.cg.domain.Media@fe464d, com.cg.domain.Media@1b98fb1, com.cg.domain.Media@188ecec, com.cg.domain.Media@7aa4cc, com.cg.domain.Media@1d96f2d, com.cg.domain.Media@11f44d]
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           getImages
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           /Integration/shirtpics/o11382715246596.jpg
+Before setting The Method    addProduct
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     addProduct
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           Product [productId=p1m0]
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           Product [productId=p2m0]
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           Product [productId=p3m0]
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           Product [productId=p4m0]
+Before setting The Method    saveAndFlush
+Sat Oct 26 10:34:47 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           Product [productId=p5m0]
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           addProduct
+After setting The Method Sat Oct 26 10:34:47 IST 2013:       Excecuted:           insertproduct
+After Returning from the method  Sat Oct 26 10:34:47 IST 2013:       Returning:           AddProductDescriptionByMerchant
+Before setting The Method    insertproductdescMerchant
+Sat Oct 26 10:43:47 IST 2013:       To be executing:     insertproductdescMerchant
+Before setting The Method    insertproductdescMerchant
+Sat Oct 26 10:43:47 IST 2013:       To be executing:     insertproductdescMerchant
+After setting The Method Sat Oct 26 10:43:47 IST 2013:       Excecuted:           insertproductdescMerchant
+Sat Oct 26 10:43:47 IST 2013:       Method               insertproductdescMerchant         exception java.io.FileNotFoundException: D:\Allfiles (Access is denied)
+After setting The Method Sat Oct 26 10:43:47 IST 2013:       Excecuted:           insertproductdescMerchant
+Sat Oct 26 10:43:47 IST 2013:       Method               insertproductdescMerchant         exception java.io.FileNotFoundException: D:\Allfiles (Access is denied)
+Before setting The Method    meradd
+Sat Oct 26 10:45:43 IST 2013:       To be executing:     meradd
+After setting The Method Sat Oct 26 10:45:43 IST 2013:       Excecuted:           meradd
+After Returning from the method  Sat Oct 26 10:45:43 IST 2013:       Returning:           AddProductsByMerchant
+Before setting The Method    merchantdel
+Sat Oct 26 10:45:44 IST 2013:       To be executing:     merchantdel
+Before setting The Method    getOrder
+Sat Oct 26 10:45:44 IST 2013:       To be executing:     getOrder
+Before setting The Method    getBymerchantId
+Sat Oct 26 10:45:44 IST 2013:       To be executing:     getBymerchantId
+After setting The Method Sat Oct 26 10:45:44 IST 2013:       Excecuted:           getBymerchantId
+After Returning from the method  Sat Oct 26 10:45:44 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:44 IST 2013:       Excecuted:           getOrder
+After Returning from the method  Sat Oct 26 10:45:44 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:44 IST 2013:       Excecuted:           merchantdel
+After Returning from the method  Sat Oct 26 10:45:44 IST 2013:       Returning:           DeleteProductsByMerchant
+Before setting The Method    checkorder
+Sat Oct 26 10:45:45 IST 2013:       To be executing:     checkorder
+Before setting The Method    getOrder
+Sat Oct 26 10:45:45 IST 2013:       To be executing:     getOrder
+Before setting The Method    getBymerchantId
+Sat Oct 26 10:45:45 IST 2013:       To be executing:     getBymerchantId
+After setting The Method Sat Oct 26 10:45:45 IST 2013:       Excecuted:           getBymerchantId
+After Returning from the method  Sat Oct 26 10:45:45 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:45 IST 2013:       Excecuted:           getOrder
+After Returning from the method  Sat Oct 26 10:45:45 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:45 IST 2013:       Excecuted:           checkorder
+After Returning from the method  Sat Oct 26 10:45:45 IST 2013:       Returning:           CheckOrdersByMerchant
+Before setting The Method    showDiscountsByMerchant
+Sat Oct 26 10:45:45 IST 2013:       To be executing:     showDiscountsByMerchant
+After setting The Method Sat Oct 26 10:45:45 IST 2013:       Excecuted:           showDiscountsByMerchant
+After Returning from the method  Sat Oct 26 10:45:45 IST 2013:       Returning:           DiscountByMerchant
+Before setting The Method    showproductofmerchant
+Sat Oct 26 10:45:47 IST 2013:       To be executing:     showproductofmerchant
+Before setting The Method    getAllProductofMerchant
+Sat Oct 26 10:45:47 IST 2013:       To be executing:     getAllProductofMerchant
+Before setting The Method    getById
+Sat Oct 26 10:45:47 IST 2013:       To be executing:     getById
+After setting The Method Sat Oct 26 10:45:47 IST 2013:       Excecuted:           getById
+After Returning from the method  Sat Oct 26 10:45:47 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:47 IST 2013:       Excecuted:           getAllProductofMerchant
+After Returning from the method  Sat Oct 26 10:45:47 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:47 IST 2013:       Excecuted:           showproductofmerchant
+After Returning from the method  Sat Oct 26 10:45:47 IST 2013:       Returning:           ShowProductsForMerchant
+Before setting The Method    merchantdel
+Sat Oct 26 10:45:47 IST 2013:       To be executing:     merchantdel
+Before setting The Method    getOrder
+Sat Oct 26 10:45:47 IST 2013:       To be executing:     getOrder
+Before setting The Method    getBymerchantId
+Sat Oct 26 10:45:47 IST 2013:       To be executing:     getBymerchantId
+After setting The Method Sat Oct 26 10:45:47 IST 2013:       Excecuted:           getBymerchantId
+After Returning from the method  Sat Oct 26 10:45:47 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:47 IST 2013:       Excecuted:           getOrder
+After Returning from the method  Sat Oct 26 10:45:47 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:47 IST 2013:       Excecuted:           merchantdel
+After Returning from the method  Sat Oct 26 10:45:47 IST 2013:       Returning:           DeleteProductsByMerchant
+Before setting The Method    meradd
+Sat Oct 26 10:45:47 IST 2013:       To be executing:     meradd
+After setting The Method Sat Oct 26 10:45:47 IST 2013:       Excecuted:           meradd
+After Returning from the method  Sat Oct 26 10:45:47 IST 2013:       Returning:           AddProductsByMerchant
+Before setting The Method    merchantdel
+Sat Oct 26 10:45:48 IST 2013:       To be executing:     merchantdel
+Before setting The Method    getOrder
+Sat Oct 26 10:45:48 IST 2013:       To be executing:     getOrder
+Before setting The Method    getBymerchantId
+Sat Oct 26 10:45:48 IST 2013:       To be executing:     getBymerchantId
+After setting The Method Sat Oct 26 10:45:48 IST 2013:       Excecuted:           getBymerchantId
+After Returning from the method  Sat Oct 26 10:45:48 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:48 IST 2013:       Excecuted:           getOrder
+After Returning from the method  Sat Oct 26 10:45:48 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:48 IST 2013:       Excecuted:           merchantdel
+After Returning from the method  Sat Oct 26 10:45:48 IST 2013:       Returning:           DeleteProductsByMerchant
+Before setting The Method    showproductofmerchant
+Sat Oct 26 10:45:48 IST 2013:       To be executing:     showproductofmerchant
+Before setting The Method    getAllProductofMerchant
+Sat Oct 26 10:45:48 IST 2013:       To be executing:     getAllProductofMerchant
+Before setting The Method    getById
+Sat Oct 26 10:45:48 IST 2013:       To be executing:     getById
+After setting The Method Sat Oct 26 10:45:48 IST 2013:       Excecuted:           getById
+After Returning from the method  Sat Oct 26 10:45:48 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:48 IST 2013:       Excecuted:           getAllProductofMerchant
+After Returning from the method  Sat Oct 26 10:45:48 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:48 IST 2013:       Excecuted:           showproductofmerchant
+After Returning from the method  Sat Oct 26 10:45:48 IST 2013:       Returning:           ShowProductsForMerchant
+Before setting The Method    checkorder
+Sat Oct 26 10:45:49 IST 2013:       To be executing:     checkorder
+Before setting The Method    getOrder
+Sat Oct 26 10:45:49 IST 2013:       To be executing:     getOrder
+Before setting The Method    getBymerchantId
+Sat Oct 26 10:45:49 IST 2013:       To be executing:     getBymerchantId
+After setting The Method Sat Oct 26 10:45:49 IST 2013:       Excecuted:           getBymerchantId
+After Returning from the method  Sat Oct 26 10:45:49 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:49 IST 2013:       Excecuted:           getOrder
+After Returning from the method  Sat Oct 26 10:45:49 IST 2013:       Returning:           []
+After setting The Method Sat Oct 26 10:45:49 IST 2013:       Excecuted:           checkorder
+After Returning from the method  Sat Oct 26 10:45:49 IST 2013:       Returning:           CheckOrdersByMerchant
+Before setting The Method    showDiscountsByMerchant
+Sat Oct 26 10:45:49 IST 2013:       To be executing:     showDiscountsByMerchant
+After setting The Method Sat Oct 26 10:45:49 IST 2013:       Excecuted:           showDiscountsByMerchant
+After Returning from the method  Sat Oct 26 10:45:49 IST 2013:       Returning:           DiscountByMerchant
+Before setting The Method    showDiscountsByMerchant
+Sat Oct 26 10:45:58 IST 2013:       To be executing:     showDiscountsByMerchant
+After setting The Method Sat Oct 26 10:45:58 IST 2013:       Excecuted:           showDiscountsByMerchant
+After Returning from the method  Sat Oct 26 10:45:58 IST 2013:       Returning:           DiscountByMerchant
+Before setting The Method    showAdminLogin
+Sat Oct 26 10:47:43 IST 2013:       To be executing:     showAdminLogin
+After setting The Method Sat Oct 26 10:47:43 IST 2013:       Excecuted:           showAdminLogin
+After Returning from the method  Sat Oct 26 10:47:43 IST 2013:       Returning:           Admin_Login
+Before setting The Method    showHome
+Sat Oct 26 10:47:50 IST 2013:       To be executing:     showHome
+After setting The Method Sat Oct 26 10:47:50 IST 2013:       Excecuted:           showHome
+After Returning from the method  Sat Oct 26 10:47:50 IST 2013:       Returning:           Home
+Before setting The Method    showAdminLogin
+Sat Oct 26 10:48:05 IST 2013:       To be executing:     showAdminLogin
+After setting The Method Sat Oct 26 10:48:05 IST 2013:       Excecuted:           showAdminLogin
+After Returning from the method  Sat Oct 26 10:48:05 IST 2013:       Returning:           Admin_Login
+Before setting The Method    showAdmin
+Sat Oct 26 10:48:19 IST 2013:       To be executing:     showAdmin
+After setting The Method Sat Oct 26 10:48:19 IST 2013:       Excecuted:           showAdmin
+After Returning from the method  Sat Oct 26 10:48:19 IST 2013:       Returning:           Admin
+Before setting The Method    add
+Sat Oct 26 10:49:33 IST 2013:       To be executing:     add
+After setting The Method Sat Oct 26 10:49:33 IST 2013:       Excecuted:           add
+After Returning from the method  Sat Oct 26 10:49:33 IST 2013:       Returning:           AddProducts
+Before setting The Method    findUser
+Sat Oct 26 10:49:58 IST 2013:       To be executing:     findUser
+Before setting The Method    getAllProduct
+Sat Oct 26 10:49:58 IST 2013:       To be executing:     getAllProduct
+Before setting The Method    findAll
+Sat Oct 26 10:49:58 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:49:58 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:49:58 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:49:58 IST 2013:       Excecuted:           getAllProduct
+After Returning from the method  Sat Oct 26 10:49:58 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:49:58 IST 2013:       Excecuted:           findUser
+After Returning from the method  Sat Oct 26 10:49:58 IST 2013:       Returning:           ShowInventoryForAdmin
+Before setting The Method    del
+Sat Oct 26 10:50:46 IST 2013:       To be executing:     del
+Before setting The Method    getAllProduct
+Sat Oct 26 10:50:46 IST 2013:       To be executing:     getAllProduct
+Before setting The Method    findAll
+Sat Oct 26 10:50:46 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:50:46 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:50:46 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:50:46 IST 2013:       Excecuted:           getAllProduct
+After Returning from the method  Sat Oct 26 10:50:46 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:50:46 IST 2013:       Excecuted:           del
+After Returning from the method  Sat Oct 26 10:50:46 IST 2013:       Returning:           UpdateInventoryByAdmin
+Before setting The Method    navigate
+Sat Oct 26 10:53:48 IST 2013:       To be executing:     navigate
+Before setting The Method    deleteProduct
+Sat Oct 26 10:53:48 IST 2013:       To be executing:     deleteProduct
+Before setting The Method    findOne
+Sat Oct 26 10:53:48 IST 2013:       To be executing:     findOne
+After setting The Method Sat Oct 26 10:53:48 IST 2013:       Excecuted:           findOne
+After Returning from the method  Sat Oct 26 10:53:48 IST 2013:       Returning:           Product [productId=P1M0]
+Before setting The Method    save
+Sat Oct 26 10:53:48 IST 2013:       To be executing:     save
+After setting The Method Sat Oct 26 10:53:48 IST 2013:       Excecuted:           save
+After Returning from the method  Sat Oct 26 10:53:48 IST 2013:       Returning:           Product [productId=P1M0]
+After setting The Method Sat Oct 26 10:53:48 IST 2013:       Excecuted:           deleteProduct
+After setting The Method Sat Oct 26 10:53:48 IST 2013:       Excecuted:           navigate
+After Returning from the method  Sat Oct 26 10:53:48 IST 2013:       Returning:           UpdateSuccessByAdmin
+Before setting The Method    findUser
+Sat Oct 26 10:53:49 IST 2013:       To be executing:     findUser
+Before setting The Method    getAllProduct
+Sat Oct 26 10:53:49 IST 2013:       To be executing:     getAllProduct
+Before setting The Method    findAll
+Sat Oct 26 10:53:49 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:53:49 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:53:49 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:53:49 IST 2013:       Excecuted:           getAllProduct
+After Returning from the method  Sat Oct 26 10:53:49 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:53:49 IST 2013:       Excecuted:           findUser
+After Returning from the method  Sat Oct 26 10:53:49 IST 2013:       Returning:           ShowInventoryForAdmin
+Before setting The Method    del
+Sat Oct 26 10:53:54 IST 2013:       To be executing:     del
+Before setting The Method    getAllProduct
+Sat Oct 26 10:53:54 IST 2013:       To be executing:     getAllProduct
+Before setting The Method    findAll
+Sat Oct 26 10:53:54 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:53:54 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:53:54 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:53:54 IST 2013:       Excecuted:           getAllProduct
+After Returning from the method  Sat Oct 26 10:53:54 IST 2013:       Returning:           [Product [productId=p1m0], Product [productId=p2m0], Product [productId=p3m0], Product [productId=p4m0], Product [productId=p5m0]]
+After setting The Method Sat Oct 26 10:53:54 IST 2013:       Excecuted:           del
+After Returning from the method  Sat Oct 26 10:53:54 IST 2013:       Returning:           UpdateInventoryByAdmin
+Before setting The Method    getAllMerchants
+Sat Oct 26 10:53:55 IST 2013:       To be executing:     getAllMerchants
+Before setting The Method    getAllMerchants
+Sat Oct 26 10:53:55 IST 2013:       To be executing:     getAllMerchants
+Before setting The Method    findAll
+Sat Oct 26 10:53:55 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:53:55 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:53:55 IST 2013:       Returning:           [com.cg.domain.Merchant@117f954, com.cg.domain.Merchant@f207b1]
+After setting The Method Sat Oct 26 10:53:55 IST 2013:       Excecuted:           getAllMerchants
+After Returning from the method  Sat Oct 26 10:53:55 IST 2013:       Returning:           [com.cg.domain.Merchant@117f954, com.cg.domain.Merchant@f207b1]
+After setting The Method Sat Oct 26 10:53:55 IST 2013:       Excecuted:           getAllMerchants
+After Returning from the method  Sat Oct 26 10:53:55 IST 2013:       Returning:           AllMerchants
+Before setting The Method    getPendingMerchants
+Sat Oct 26 10:54:00 IST 2013:       To be executing:     getPendingMerchants
+Before setting The Method    getPendingMerchants
+Sat Oct 26 10:54:00 IST 2013:       To be executing:     getPendingMerchants
+Before setting The Method    findAll
+Sat Oct 26 10:54:00 IST 2013:       To be executing:     findAll
+After setting The Method Sat Oct 26 10:54:00 IST 2013:       Excecuted:           findAll
+After Returning from the method  Sat Oct 26 10:54:00 IST 2013:       Returning:           [com.cg.domain.Merchant@1bcc18f, com.cg.domain.Merchant@147a7aa]
+After setting The Method Sat Oct 26 10:54:00 IST 2013:       Excecuted:           getPendingMerchants
+After Returning from the method  Sat Oct 26 10:54:00 IST 2013:       Returning:           [com.cg.domain.Merchant@1bcc18f]
+After setting The Method Sat Oct 26 10:54:00 IST 2013:       Excecuted:           getPendingMerchants
+After Returning from the method  Sat Oct 26 10:54:00 IST 2013:       Returning:           Pending
+Before setting The Method    inviteMerchants
+Sat Oct 26 10:54:14 IST 2013:       To be executing:     inviteMerchants
+After setting The Method Sat Oct 26 10:54:14 IST 2013:       Excecuted:           inviteMerchants
+After Returning from the method  Sat Oct 26 10:54:14 IST 2013:       Returning:           InvitationToMerchant
+Before setting The Method    createOffer
+Sat Oct 26 10:54:27 IST 2013:       To be executing:     createOffer
+After setting The Method Sat Oct 26 10:54:27 IST 2013:       Excecuted:           createOffer
+After Returning from the method  Sat Oct 26 10:54:27 IST 2013:       Returning:           CreateOfferByAdmin
+Before setting The Method    createOffer
+Sat Oct 26 10:54:29 IST 2013:       To be executing:     createOffer
+After setting The Method Sat Oct 26 10:54:29 IST 2013:       Excecuted:           createOffer
+After Returning from the method  Sat Oct 26 10:54:29 IST 2013:       Returning:           CreateOfferByMerchant
+Before setting The Method    addCupon
+Sat Oct 26 10:54:30 IST 2013:       To be executing:     addCupon
+Before setting The Method    getAllProductByMarchantID
+Sat Oct 26 10:54:30 IST 2013:       To be executing:     getAllProductByMarchantID
+Before setting The Method    findOne
+Sat Oct 26 10:54:30 IST 2013:       To be executing:     findOne
+After setting The Method Sat Oct 26 10:54:30 IST 2013:       Excecuted:           findOne
+Sat Oct 26 10:54:30 IST 2013:       Method               findOne         exception org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!
+After setting The Method Sat Oct 26 10:54:30 IST 2013:       Excecuted:           getAllProductByMarchantID
+Sat Oct 26 10:54:30 IST 2013:       Method               getAllProductByMarchantID         exception org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!
+After setting The Method Sat Oct 26 10:54:30 IST 2013:       Excecuted:           addCupon
+Sat Oct 26 10:54:30 IST 2013:       Method               addCupon         exception org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!
+Before setting The Method    createOffer
+Sat Oct 26 10:54:40 IST 2013:       To be executing:     createOffer
+After setting The Method Sat Oct 26 10:54:40 IST 2013:       Excecuted:           createOffer
+After Returning from the method  Sat Oct 26 10:54:40 IST 2013:       Returning:           CreateOfferByMerchant
+Before setting The Method    createOffer
+Sat Oct 26 10:54:43 IST 2013:       To be executing:     createOffer
+After setting The Method Sat Oct 26 10:54:43 IST 2013:       Excecuted:           createOffer
+After Returning from the method  Sat Oct 26 10:54:43 IST 2013:       Returning:           CreateOfferByMerchant

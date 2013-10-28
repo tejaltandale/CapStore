@@ -1,0 +1,281 @@
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Fri Oct 25 09:54:52 IST 2013]; root of context hierarchy
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10b0e80: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoWishlist,iDaoViewcount,iDaoOffer,iDaoReward,iDaoShipping,iDaoMedia,iDaoAdvertisement,iDaoTransaction,iDaoReturnstatus,iDaoMerchant,iDaoScheme,iDaoOrder,iDaoReturneditem,iDaoUser,iDaoProduct,iDaoFeedback,iDaoCategory,iDaoProductDescription,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; root of factory hierarchy
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Root mapping to handler 'controller'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+Root WebApplicationContext: initialization completed in 10372 ms
+FrameworkServlet 'springDispatcherServlet': initialization started
+Refreshing WebApplicationContext for namespace 'springDispatcherServlet-servlet': startup date [Fri Oct 25 09:55:03 IST 2013]; parent: Root WebApplicationContext
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1bf8ce0: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoWishlist,iDaoViewcount,iDaoOffer,iDaoReward,iDaoShipping,iDaoMedia,iDaoAdvertisement,iDaoTransaction,iDaoReturnstatus,iDaoMerchant,iDaoScheme,iDaoOrder,iDaoReturneditem,iDaoUser,iDaoProduct,iDaoFeedback,iDaoCategory,iDaoProductDescription,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@10b0e80
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Root mapping to handler 'controller'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+FrameworkServlet 'springDispatcherServlet': initialization completed in 1741 ms
+Before setting The Method    showHome
+Fri Oct 25 09:55:17 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:17 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:17 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:28 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:28 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:28 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:31 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:31 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:31 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:43 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:43 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:43 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:44 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:44 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:44 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:45 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:45 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:45 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:46 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:46 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:46 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:46 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:46 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:46 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:46 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:46 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:46 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:46 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:46 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:46 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:47 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:47 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:47 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:47 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:47 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:47 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:47 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:47 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:47 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:47 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:47 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:47 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:47 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:47 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:47 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:47 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:47 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:47 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:48 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:48 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:48 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:48 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:48 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:48 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:48 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:48 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:48 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:48 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:48 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:48 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:48 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:48 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:48 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:49 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:49 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:49 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:49 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:49 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:49 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:49 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:49 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:49 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:55:49 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:55:49 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:55:49 IST 2013:       Returning:           MainHome
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Fri Oct 25 09:57:30 IST 2013]; root of context hierarchy
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b7cbb6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoWishlist,iDaoViewcount,iDaoOffer,iDaoReward,iDaoShipping,iDaoMedia,iDaoAdvertisement,iDaoTransaction,iDaoReturnstatus,iDaoMerchant,iDaoScheme,iDaoOrder,iDaoReturneditem,iDaoUser,iDaoProduct,iDaoFeedback,iDaoCategory,iDaoProductDescription,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; root of factory hierarchy
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Root mapping to handler 'controller'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+Root WebApplicationContext: initialization completed in 5601 ms
+FrameworkServlet 'springDispatcherServlet': initialization started
+Refreshing WebApplicationContext for namespace 'springDispatcherServlet-servlet': startup date [Fri Oct 25 09:57:36 IST 2013]; parent: Root WebApplicationContext
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@baf993: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoWishlist,iDaoViewcount,iDaoOffer,iDaoReward,iDaoShipping,iDaoMedia,iDaoAdvertisement,iDaoTransaction,iDaoReturnstatus,iDaoMerchant,iDaoScheme,iDaoOrder,iDaoReturneditem,iDaoUser,iDaoProduct,iDaoFeedback,iDaoCategory,iDaoProductDescription,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@b7cbb6
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Root mapping to handler 'controller'
+Mapped URL path [/logout] onto handler 'userController'
+Mapped URL path [/logout.*] onto handler 'userController'
+Mapped URL path [/logout/] onto handler 'userController'
+Mapped URL path [/AddUser] onto handler 'userController'
+Mapped URL path [/AddUser.*] onto handler 'userController'
+Mapped URL path [/AddUser/] onto handler 'userController'
+Mapped URL path [/SignUpUser] onto handler 'userController'
+Mapped URL path [/SignUpUser.*] onto handler 'userController'
+Mapped URL path [/SignUpUser/] onto handler 'userController'
+Mapped URL path [/FetchUser] onto handler 'userController'
+Mapped URL path [/FetchUser.*] onto handler 'userController'
+Mapped URL path [/FetchUser/] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant.*] onto handler 'userController'
+Mapped URL path [/AskUserOrMerchant/] onto handler 'userController'
+Mapped URL path [/login] onto handler 'userController'
+Mapped URL path [/login.*] onto handler 'userController'
+Mapped URL path [/login/] onto handler 'userController'
+FrameworkServlet 'springDispatcherServlet': initialization completed in 1791 ms
+Before setting The Method    showHome
+Fri Oct 25 09:57:44 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:57:44 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:57:44 IST 2013:       Returning:           MainHome
+No mapping found for HTTP request with URI [/Integration/tsearch] in DispatcherServlet with name 'springDispatcherServlet'
+Before setting The Method    showHome
+Fri Oct 25 09:57:55 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:57:55 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:57:55 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:58:01 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:58:01 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:58:01 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:58:02 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:58:02 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:58:02 IST 2013:       Returning:           MainHome
+Before setting The Method    showHome
+Fri Oct 25 09:58:04 IST 2013:       To be executing:     showHome
+After setting The Method Fri Oct 25 09:58:04 IST 2013:       Excecuted:           showHome
+After Returning from the method  Fri Oct 25 09:58:04 IST 2013:       Returning:           MainHome

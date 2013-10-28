@@ -1,0 +1,134 @@
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Oct 23 20:40:49 IST 2013]; root of context hierarchy
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@dd2f52: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoOrder,iDaoShipping,iDaoUser,iDaoProduct,iDaoAdvertisement,iDaoWish,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; root of factory hierarchy
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Mapped URL path [/addadvertisement] onto handler 'adminController'
+Mapped URL path [/addadvertisement.*] onto handler 'adminController'
+Mapped URL path [/addadvertisement/] onto handler 'adminController'
+Root mapping to handler 'controller'
+Mapped URL path [/useradd] onto handler 'userController'
+Mapped URL path [/useradd.*] onto handler 'userController'
+Mapped URL path [/useradd/] onto handler 'userController'
+Root WebApplicationContext: initialization completed in 4624 ms
+FrameworkServlet 'springDispatcherServlet': initialization started
+Refreshing WebApplicationContext for namespace 'springDispatcherServlet-servlet': startup date [Wed Oct 23 20:40:54 IST 2013]; parent: Root WebApplicationContext
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55d128: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoOrder,iDaoShipping,iDaoUser,iDaoProduct,iDaoAdvertisement,iDaoWish,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@dd2f52
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Mapped URL path [/addadvertisement] onto handler 'adminController'
+Mapped URL path [/addadvertisement.*] onto handler 'adminController'
+Mapped URL path [/addadvertisement/] onto handler 'adminController'
+Root mapping to handler 'controller'
+Mapped URL path [/useradd] onto handler 'userController'
+Mapped URL path [/useradd.*] onto handler 'userController'
+Mapped URL path [/useradd/] onto handler 'userController'
+FrameworkServlet 'springDispatcherServlet': initialization completed in 1398 ms
+Closing WebApplicationContext for namespace 'springDispatcherServlet-servlet': startup date [Wed Oct 23 20:40:54 IST 2013]; parent: Root WebApplicationContext
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55d128: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoOrder,iDaoShipping,iDaoUser,iDaoProduct,iDaoAdvertisement,iDaoWish,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@dd2f52
+Closing JPA EntityManagerFactory for persistence unit 'hello'
+Closing Root WebApplicationContext: startup date [Wed Oct 23 20:40:49 IST 2013]; root of context hierarchy
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@dd2f52: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoOrder,iDaoShipping,iDaoUser,iDaoProduct,iDaoAdvertisement,iDaoWish,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; root of factory hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'hello'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Oct 23 20:40:57 IST 2013]; root of context hierarchy
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@a6c507: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoOrder,iDaoShipping,iDaoUser,iDaoProduct,iDaoAdvertisement,iDaoWish,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; root of factory hierarchy
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Mapped URL path [/addadvertisement] onto handler 'adminController'
+Mapped URL path [/addadvertisement.*] onto handler 'adminController'
+Mapped URL path [/addadvertisement/] onto handler 'adminController'
+Root mapping to handler 'controller'
+Mapped URL path [/useradd] onto handler 'userController'
+Mapped URL path [/useradd.*] onto handler 'userController'
+Mapped URL path [/useradd/] onto handler 'userController'
+Root WebApplicationContext: initialization completed in 4834 ms
+FrameworkServlet 'springDispatcherServlet': initialization started
+Refreshing WebApplicationContext for namespace 'springDispatcherServlet-servlet': startup date [Wed Oct 23 20:41:02 IST 2013]; parent: Root WebApplicationContext
+Loading XML bean definitions from ServletContext resource [/WEB-INF/springDispatcherServlet-servlet.xml]
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Bean 'datasource' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'jpavendoradaptor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'hello'
+Bean 'entityManagerFactory' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#4' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean '(inner bean)#6' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.config.internalTransactionAdvisor' is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17ff146: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceClass,adminController,controller,userController,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,entityManagerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,selectAll,logging,datasource,iDaoOrder,iDaoShipping,iDaoUser,iDaoProduct,iDaoAdvertisement,iDaoWish,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,jpavendoradaptor,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@a6c507
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+Mapped URL path [/addadvertisement] onto handler 'adminController'
+Mapped URL path [/addadvertisement.*] onto handler 'adminController'
+Mapped URL path [/addadvertisement/] onto handler 'adminController'
+Root mapping to handler 'controller'
+Mapped URL path [/useradd] onto handler 'userController'
+Mapped URL path [/useradd.*] onto handler 'userController'
+Mapped URL path [/useradd/] onto handler 'userController'
+FrameworkServlet 'springDispatcherServlet': initialization completed in 1507 ms
+Before setting The Method    showHome
+Wed Oct 23 20:41:05 IST 2013:       To be executing:     showHome
+After setting The Method Wed Oct 23 20:41:05 IST 2013:       Excecuted:           showHome
+After Returning from the method  Wed Oct 23 20:41:05 IST 2013:       Returning:           home
+Before setting The Method    addUser
+Wed Oct 23 20:41:07 IST 2013:       To be executing:     addUser
+Before setting The Method    addUser
+Wed Oct 23 20:41:07 IST 2013:       To be executing:     addUser
+Before setting The Method    saveAndFlush
+Wed Oct 23 20:41:07 IST 2013:       To be executing:     saveAndFlush
+After setting The Method Wed Oct 23 20:41:07 IST 2013:       Excecuted:           saveAndFlush
+After Returning from the method  Wed Oct 23 20:41:07 IST 2013:       Returning:           com.cg.domain.User@163f3e8
+After setting The Method Wed Oct 23 20:41:07 IST 2013:       Excecuted:           addUser
+After setting The Method Wed Oct 23 20:41:07 IST 2013:       Excecuted:           addUser
+After Returning from the method  Wed Oct 23 20:41:07 IST 2013:       Returning:           message
+No mapping found for HTTP request with URI [/Integration/find] in DispatcherServlet with name 'springDispatcherServlet'
